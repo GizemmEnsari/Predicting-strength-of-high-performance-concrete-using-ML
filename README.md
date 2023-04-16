@@ -1,7 +1,7 @@
 # Predicting-strength-of-high-performance-concrete-using-ML
 Predicting strength of high-performance concrete using ML algorithms:
 
-###In the Q1.py file:
+### In the Q1.py file:
 I trained a multivariate ordinary least squares ("simple") linear regression model to predict the compressive strength of an input concrete mixture based on the relevant features. I used only the "training" dataset and estimated the "Err" using both the validation approach and a cross-validation (CV) approach.
 
 To estimate the "Err" using the validation approach, I split the "training" dataset into "train/validation/test" subsets. I trained the model on the "train + validation" subset and tested it on the "test" subset. I then calculated the mean squared error (MSE) between the predicted and actual values of the compressive strength to estimate the "Err".
@@ -12,4 +12,4 @@ I carefully considered the choice of the number of folds used in the CV approach
 
 Finally, I compared the "Err" estimates obtained using the validation and CV approaches.
 
-###In the Q2.py file:
+### In the Q2.py file:
